@@ -1,0 +1,7 @@
+pomysły:
+
+
+- Mieszanie dwóch stylów (Style Interpolation): Zamiast jednego obrazu stylu, podajcie algorytmowi dwa (np. Gwiaździsta Noc Van Gogha + Krzyki Muncha). Będziecie musiały policzyć dwie Macierze Grama i zsumować je w funkcji straty (np. 50% wagi dla jednego stylu, 50% dla drugiego). Powstanie obraz w zupełnie nowym, "wymieszanym" stylu!
+- Zachowanie kolorów oryginału (Color Preservation): Standardowy algorytm narzuca zarówno pociągnięcia pędzla, jak i kolory obrazu referencyjnego. Możecie zaimplementować technikę (wymaga to dodatkowej transformacji macierzowej w przestrzeni barw, np. YUV lub LAB), która przenosi tylko teksturę, zachowując oryginalne kolory ze zdjęcia docelowego. -> to mi się wydaje fajne
+- Stylizacja GIF-a (Video Style Transfer): Przeróbcie krótki, kilkuklatkowy plik GIF (klatka po klatce). Największym wyzwaniem będzie to, że obraz może "migać" między klatkami, więc będziecie musiały lekko zainicjować każdą nową klatkę wynikiem z poprzedniej.
+- Zmiana ekstraktora cech: Książka i oryginalny artykuł używają VGG19. Zmodyfikujcie kod tak, aby używał nowocześniejszej i lżejszej sieci, np. ResNet50 lub MobileNetV2. Będziecie musiały same sprawdzić, które warstwy w tych sieciach najlepiej nadają się do treści, a które do stylu. Możecie potem porównać czas wykonywania: "Nasz MobileNet robi to w 3 minuty, a VGG z książki w 10 minut"

@@ -1,0 +1,4 @@
+trenowało się 34 minuty
+zmiana modelu na MobileNetV2
+
+cos poszlo nie tak tylko rozpikselowało zdjęcie
